@@ -1,0 +1,81 @@
+.navbar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color:#E7B97D;
+    position: sticky;
+    top: 54px;
+    border-radius: 20px;
+    height: 101px;
+}
+
+#html{
+    scroll-behavior: smooth;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px, 0px;
+}
+
+.navbar ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0, 0, 10px white;
+    border-radius: 25px;
+}
+
+.text{
+    position: absolute;
+    overflow: visible;
+    width: 204px;
+    height: 60px;
+    left: 700px;
+    top: 25px;
+}
+
+.shop{ 
+	position: absolute;
+	width: 204px;
+	height: 60px;
+	right: 20px;
+	top: 25px;
+    overflow: visible;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    align-items: center;
+}
+
+/*.navbar{
+    left: 46px;
+    top: 25px;
+    position: absolute;
+    overflow: visible;
+    width: 132px;
+    height: 27px;
+    text-align: center;
+    font-family: Adobe Clean;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+    text-transform: uppercase;
+    background-color: yellowgreen;
+}
+
+
