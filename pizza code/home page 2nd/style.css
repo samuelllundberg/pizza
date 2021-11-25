@@ -1,0 +1,145 @@
+/*body{
+    text-align: center;
+    margin-top: 12%;
+    background-image: url(masimo-grabar-NzHRSLhc6Cs-unsplash1.jpg);
+    color: white;
+}
+
+.text1{
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.text2{
+    margin-top: 15%;
+    font-size: 20px;
+    font-size: xx-large;
+}
+
+.text3{
+    margin: 12%;
+    font-size: 30px;
+
+}*/
+
+.navbar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    background-color:#E7B97D;
+    position: sticky;
+    top: 5px;
+    border-radius: 20px;
+    height: 101px;
+}
+
+#html{
+    scroll-behavior: smooth;
+}
+
+.navbar ul{
+    display: flexbox;
+    list-style: none;
+    margin: 20px, 0px;
+}
+
+.navbar ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0, 0, 10px rgb(224, 112, 112);
+    border-radius: 25px;
+}
+
+.text{
+    position:fixed;
+    overflow: visible;
+    width: 204px;
+    height: 60px;
+    left: calc(50vw);
+    top: 18px;
+    margin-left: -102px;
+}
+
+.shop-text{
+    text-align: center;
+}
+
+.shop{ 
+	position: absolute;
+	width: 204px;
+	height: 60px;
+	right: 20px;
+	top: 20px;
+    overflow: visible;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.shop-text{
+    text-align: center;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(29, 29, 29, 0.404);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(masimo-grabar-NzHRSLhc6Cs-unsplash1.jpg) no-repeat center center/ cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: 100%;
+}
+
+.headings{
+    position: absolute;
+    overflow: visible;
+    width: 960px;
+    height: 210px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.praghraph{
+    overflow: visible;
+    text-align: center;
+    width: 960px;
+    height: 210px;
+    font-size: 1.5rem;
+}
+ .praghraph{
+     margin-top: 50%;
+
+ }
+
+ #menu{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
